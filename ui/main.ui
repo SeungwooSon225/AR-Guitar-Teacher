@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Main</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>280</y>
+     <width>200</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_stroke">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>470</y>
+     <width>200</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_song">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>650</y>
+     <width>200</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>go()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>581</x>
+     <y>291</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>434</x>
+     <y>318</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_stroke</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>openStrokeWindow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>684</x>
+     <y>517</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>970</x>
+     <y>507</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_song</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>openSongWindow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>644</x>
+     <y>692</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>905</x>
+     <y>704</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>go()</slot>
+  <slot>openStrokeWindow()</slot>
+  <slot>openSongWindow()</slot>
+ </slots>
+</ui>

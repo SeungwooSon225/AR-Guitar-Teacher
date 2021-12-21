@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>975</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AR Guitar Teacher</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>1280</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="lineWidth">
+    <number>1</number>
+   </property>
+   <property name="text">
+    <string>Video</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_train">
+   <property name="geometry">
+    <rect>
+     <x>1290</x>
+     <y>830</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_back">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>880</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_G">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>810</y>
+     <width>150</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_D">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>810</y>
+     <width>150</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="codeImage">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>70</y>
+     <width>160</width>
+     <height>140</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_play">
+   <property name="geometry">
+    <rect>
+     <x>1350</x>
+     <y>880</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Em">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>810</y>
+     <width>150</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Bm">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>810</y>
+     <width>150</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_C">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>810</y>
+     <width>150</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_G7">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>810</y>
+     <width>150</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Am">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>810</y>
+     <width>150</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backImage">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>201</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="boardImage">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>740</y>
+     <width>1481</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <zorder>boardImage</zorder>
+  <zorder>label</zorder>
+  <zorder>pushButton_train</zorder>
+  <zorder>pushButton_back</zorder>
+  <zorder>pushButton_G</zorder>
+  <zorder>pushButton_D</zorder>
+  <zorder>pushButton_play</zorder>
+  <zorder>pushButton_Em</zorder>
+  <zorder>pushButton_Bm</zorder>
+  <zorder>pushButton_C</zorder>
+  <zorder>pushButton_G7</zorder>
+  <zorder>pushButton_Am</zorder>
+  <zorder>backImage</zorder>
+  <zorder>codeImage</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_train</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>train()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1333</x>
+     <y>765</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>484</x>
+     <y>667</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_back</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>118</x>
+     <y>807</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>705</x>
+     <y>652</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_G</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnDownG()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>296</x>
+     <y>803</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>560</x>
+     <y>730</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_D</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnDownD()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>391</x>
+     <y>766</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>862</x>
+     <y>767</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_play</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnDownPlaySound()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1413</x>
+     <y>810</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1206</x>
+     <y>795</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Em</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnDownEm()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>800</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>687</x>
+     <y>745</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Bm</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnDownBm()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>766</x>
+     <y>820</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>833</x>
+     <y>740</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_C</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnDownC()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>914</x>
+     <y>792</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>975</x>
+     <y>730</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_Am</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnDownAm()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1081</x>
+     <y>777</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1116</x>
+     <y>738</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_G7</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>btnDownG7()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1261</x>
+     <y>776</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1327</x>
+     <y>744</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>start()</slot>
+  <slot>stop()</slot>
+  <slot>btnDownG()</slot>
+  <slot>btnDownD()</slot>
+  <slot>btnDownPlaySound()</slot>
+  <slot>btnDownEm()</slot>
+  <slot>btnDownBm()</slot>
+  <slot>btnDownAm()</slot>
+  <slot>btnDownG7()</slot>
+  <slot>btnDownC()</slot>
+  <slot>train()</slot>
+ </slots>
+</ui>

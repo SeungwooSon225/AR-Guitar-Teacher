@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Stroke</class>
+ <widget class="QDialog" name="Stroke">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1560</width>
+    <height>988</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Stroke</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>1280</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_back">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>880</y>
+     <width>60</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_show">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>830</y>
+     <width>180</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_do">
+   <property name="geometry">
+    <rect>
+     <x>1270</x>
+     <y>890</y>
+     <width>180</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="strokeImage">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>810</y>
+     <width>800</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="background">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>740</y>
+     <width>1481</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>background</zorder>
+  <zorder>pushButton_back</zorder>
+  <zorder>pushButton_show</zorder>
+  <zorder>pushButton_do</zorder>
+  <zorder>strokeImage</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_back</sender>
+   <signal>clicked()</signal>
+   <receiver>Stroke</receiver>
+   <slot>goBack()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>796</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>155</x>
+     <y>782</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_show</sender>
+   <signal>clicked()</signal>
+   <receiver>Stroke</receiver>
+   <slot>showStroke()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1123</x>
+     <y>801</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>999</x>
+     <y>783</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_do</sender>
+   <signal>clicked()</signal>
+   <receiver>Stroke</receiver>
+   <slot>doStroke()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1208</x>
+     <y>801</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1130</x>
+     <y>801</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>goBack()</slot>
+  <slot>showStroke()</slot>
+  <slot>doStroke()</slot>
+ </slots>
+</ui>
